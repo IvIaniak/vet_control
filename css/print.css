@@ -1,0 +1,37 @@
+body .topmenu,
+body .new,
+body .footer,
+body .contact,
+body .preloader,
+body .bacgraund,
+body .buttomup,
+body .collbac {
+  display: none;
+}
+body .wrapper .col .contents {
+  border-left: none !important;
+  border-right: none !important;
+}
+body * {
+  padding-top: 0!important;
+  margin-bottom: 5px !important;
+  margin-top: 0!important;
+  border-left: none;
+  border-right: none;
+}
+body h1,
+body h2,
+body h3,
+body h4,
+body h5 {
+  border-left: none;
+  border-right: none;
+}
+body a,
+body p,
+body span {
+  font-size: 14px!important;
+  color: #000;
+  border-left: none;
+  border-right: none;
+}

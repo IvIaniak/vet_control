@@ -1,0 +1,50 @@
+// out: ../css/chat111.css, sourcemap: true, compress: true
+
+table,body {
+	background-color: #BFBFBF;
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color:  #006699;
+	scrollbar-track-color: #DFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+	font-family:arial,helvetica,sans-serif;
+	font-size:16px;
+	color:#000088;
+}
+
+input,textarea,select {
+	color : #000000;
+	font: normal 16px Verdana, Arial, Helvetica, sans-serif;
+	//border: solid 1px #000000;
+}
+
+
+body {
+    & > table {
+		&#infoterminal {
+			width: 94%;
+			float: left;
+		}
+		&#reload {
+			width: 5%;
+			float: right;
+			margin: 20px 0 ;
+		}
+        & > tbody {
+            & > tr {
+                & > td {
+                    & > img {
+                        width: 40px;
+						cursor: pointer;
+						transition: all 0.3s ease-out;
+						&:hover {
+							transform: rotate(90deg);
+						}
+                    }
+                }
+            }
+        }
+    }
+}

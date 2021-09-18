@@ -1,0 +1,23 @@
+table,body {
+	background-color: #EFEFEF;
+	scrollbar-face-color: #DEE3E7;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #DEE3E7;
+	scrollbar-3dlight-color: #D1D7DC;
+	scrollbar-arrow-color:  #006699;
+	scrollbar-track-color: #DFEFEF;
+	scrollbar-darkshadow-color: #98AAB1;
+	font-family:arial,helvetica,sans-serif; 
+	font-size:14px; 
+	color:#008800; 
+}
+
+input,textarea,select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border: solid 1px #000000;
+}
+
+img {
+	border:none;
+}

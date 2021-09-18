@@ -1,0 +1,14 @@
+table,body {
+	background-color: #FFFFFF;
+	font-family:arial,helvetica,sans-serif; 
+	font-size:14px; 
+	color:#000000; 
+}
+
+input,textarea,select {
+	color : #000000;
+	font: normal 11px Verdana, Arial, Helvetica, sans-serif;
+	border: solid 1px #000000;
+}
+
+
